@@ -130,7 +130,7 @@ const Projects = () => {
 
       {/* Coming Soon Footer */}
       <div className="text-center mt-12  text-gray-500 text-lg">
-        🚧 More projects coming soon...
+        🚀 Working on more awesome stuff — updating soon!...
       </div>
     </div>
   );
