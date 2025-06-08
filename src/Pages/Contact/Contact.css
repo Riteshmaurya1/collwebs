@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Optional: Smooth transitions for QR and icons */
+.contact-icon, .qr-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-icon:hover, .qr-hover:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive tweaks (optional, Tailwind handles most) */
+@media (max-width: 640px) {
+  .custom-border-split {
+    flex-direction: column;
+    border: none;
+  }
+}

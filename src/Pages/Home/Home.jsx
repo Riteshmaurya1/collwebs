@@ -1,6 +1,5 @@
 import React from 'react'
 import Navbar from '../../Components/Navbar/Navbar'
-import { FaGithub, FaLinkedin, FaTwitter, FaGlobe } from 'react-icons/fa'
 import InstallButton from './InstallButton'
 import { Link } from 'react-router-dom'
 
@@ -27,7 +26,7 @@ const Home = () => {
                             🎯 <strong>Objective:</strong> To obtain a challenging position as a software developer where I can contribute my skills and grow alongside a dynamic team.
                         </p>
                         <a
-                            href="https://drive.google.com/your-resume-link-here"
+                            href="https://drive.google.com/file/d/1oNH6M2kyU2uA9_ro9O3lNqwBoJUUksml/view?usp=drivesdk"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-block mt-4 px-4 py-2 bg-amber-500 text-white rounded-full hover:bg-amber-600 transition"
@@ -63,51 +62,12 @@ const Home = () => {
                             <p className="mt-2 text-sm text-gray-600">Or visit my profile directly!</p>
                         </div>
                     </div>
-
-
-
-
-
                     {/* Terminal-style Code Snippet */}
                     <div className="mt-12 max-w-3xl mx-auto bg-black text-green-400 font-mono p-4 rounded-lg shadow-md text-sm">
                         <p className="mb-1"># Clone My CollWebs & Explore Projects</p>
-                        <code>git clone https://github.com/Riteshmaurya1/portfolio-ritesh-kumar.git</code>
+                        <code>git clone https://github.com/Riteshmaurya1/collwebs.git</code>
                     </div>
-                    {/* Social Links */}
-                    <div className="mt-10 flex justify-center gap-6 text-gray-700 text-2xl">
-                        <a
-                            href="https://github.com/Riteshmaurya1"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="hover:text-black"
-                        >
-                            <FaGithub />
-                        </a>
-                        <a
-                            href="https://www.linkedin.com/in/ritesh-kumar-69a50a25b"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="hover:text-blue-700"
-                        >
-                            <FaLinkedin />
-                        </a>
-                        <a
-                            href="https://twitter.com"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="hover:text-blue-400"
-                        >
-                            <FaTwitter />
-                        </a>
-                        <a
-                            href="https://ritesh-portfolio.netlify.app"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="hover:text-amber-600"
-                        >
-                            <FaGlobe />
-                        </a>
-                    </div>
+
                 </div>
             </main>
         </div>
