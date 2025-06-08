@@ -1,8 +1,8 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import tailwindcss from "@tailwindcss/vite";
+import lineClamp from "@tailwindcss/line-clamp"; // ✅ ES Module import
 
-// https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), tailwindcss(), require("@tailwindcss/line-clamp")],
+  plugins: [react(), tailwindcss(), lineClamp()], // ✅ Call it as a function
 });
