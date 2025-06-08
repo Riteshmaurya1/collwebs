@@ -54,11 +54,10 @@ const Home = () => {
                             <h4 className="text-lg font-semibold mb-2 text-gray-800">Scan QR to download App</h4>
                             <InstallButton />
                             <img
-                                src="https://api.qrserver.com/v1/create-qr-code/?data=https://collectionswebs.netlify.app&size=150x150"
+                                src="https://api.qrserver.com/v1/create-qr-code/?data=https://collwebs.vercel.app/&size=150x150"
                                 alt="QR Code"
                                 className="w-32 h-32 mt-3"
                             />
-
                             <p className="mt-2 text-sm text-gray-600">Or visit my profile directly!</p>
                         </div>
                     </div>
