@@ -17,7 +17,7 @@ const projectsData = [
       "Github",
     ],
     image: images.portfolioritesh,
-    live: "https://ritesh-portfolio.netlify.app/",
+    live: "https://portfolio-ritesh-kumar.vercel.app/",
     github: "https://github.com/Riteshmaurya1/portfolio-ritesh-kumar",
     readme:
       "https://github.com/Riteshmaurya1/portfolio-ritesh-kumar/blob/main/README.md",
