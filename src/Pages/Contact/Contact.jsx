@@ -13,7 +13,7 @@ const Contact = () => {
   });
 
   const whatsappNumber = "919517424951";
-  const emailAddress = "riteshkumar04294@gmail.com"; // Replace with your actual email
+  const emailAddress = "riteshkumarworkspace@gmail.com"; // Replace with your actual email
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
