@@ -7,9 +7,9 @@ import "./Contact.css"; // custom styles for fonts/animation
 
 const Contact = () => {
   const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
+    name: " ",
+    email: " ",
+    message: " ",
   });
   const emailAddress = "riteshkumarworkspace@gmail.com";
   const whatsappNumber = "919517424951";
