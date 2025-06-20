@@ -134,7 +134,7 @@ const projectsData = [
       "React Toastify",
       "Render",
       "Vercel",
-      "MongoDB (Optional)",
+      "MongoDB",
       "dotenv",
       "CORS",
       "express-fileupload",
