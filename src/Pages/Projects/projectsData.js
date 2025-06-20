@@ -117,6 +117,34 @@ const projectsData = [
     github: "https://github.com/Riteshmaurya1/projectone",
     readme: "https://github.com/Riteshmaurya1/projectone/blob/main/README.md",
   },
+  {
+    slug: "public-media-uploader",
+    title: "Public Media Uploader",
+    description:
+      "Public Media Uploader is a cloud-based media management web app that allows users to upload, view, and download photos and videos with no authentication required. Built using React, Node.js, and Cloudinary, it features a drag-and-drop uploader, real-time progress tracking, and a responsive media gallery. Designed for simplicity and speed, it showcases full-stack integration and public cloud storage access.",
+    stack: [
+      "React",
+      "Tailwind CSS",
+      "Node.js",
+      "Express",
+      "Cloudinary",
+      "Axios",
+      "JavaScript",
+      "Framer Motion",
+      "React Toastify",
+      "Render",
+      "Vercel",
+      "MongoDB (Optional)",
+      "dotenv",
+      "CORS",
+      "express-fileupload",
+    ],
+    image: images.publicMediaUploader, // Make sure this key is added in your images object
+    live: "https://public-media-uploader.vercel.app/",
+    github: "https://github.com/Riteshmaurya1/Public-Media-Uploader",
+    readme:
+      "https://github.com/Riteshmaurya1/Public-Media-Uploader/blob/main/README.md",
+  },
 
   // Add more projects here...
 ];

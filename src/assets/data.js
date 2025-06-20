@@ -1,9 +1,10 @@
 import portfolioritesh from "./portfolio-ritesh.png";
 import examexpress from "./examexpress.png";
-import collwebs from './collwebs.png';
-import foodweb from './foodweb.png';
-import codeview from './codeview.png';
-import Techstar from './Techstar.png';
+import collwebs from "./collwebs.png";
+import foodweb from "./foodweb.png";
+import codeview from "./codeview.png";
+import Techstar from "./Techstar.png";
+import publicMediaUploader from "./publicMediaUploader.png";
 
 export const images = {
   portfolioritesh,
@@ -11,5 +12,6 @@ export const images = {
   collwebs,
   foodweb,
   codeview,
-  Techstar
+  Techstar,
+  publicMediaUploader,
 };
